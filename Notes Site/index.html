@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Responsive Navigation Bar</title>
+</head>
+<body>
+
+  <!-- navbar section -->
+    <nav>
+      <div class="logo">Keep-Notes</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <img src="cursor-gaf83a28cb_1280.png" alt="">
+      </label>
+      <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- welcome heading -->
+    <h1 class="wel-heading">Welcome to Keep Notes</h1>
+    
+    <!-- text content section -->
+    <div class="middle">
+      <h2 class="add-heading">Add a Note</h2>
+      <textarea name="text" id="text-content" cols="60" rows="8" placeholder="Enter Your Note"></textarea>
+      <br />
+      <button class="btn" id="btn">Add My Note</button>
+    </div>
+
+    <!-- keep notes section -->
+    <div class="keep-notes">
+      <div class="your-notes">
+        <div class="text">
+          <h4 style="text-align: center;" class="ynotes">Your Note</h4>
+          <textarea name="your-notes" id="textarea1" placeholder="Your Note"></textarea>
+          <div class="deleted">
+            <button  class="delete">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
